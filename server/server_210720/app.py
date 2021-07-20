@@ -2,11 +2,7 @@ import socket
 from flask import Flask
 from flask import jsonify
 from apscheduler.schedulers.background import BackgroundScheduler
-import sys
-from datetime import datetime
-import apscheduler.schedulers.blocking
 import time
-import pymysql
 import cameraRP
 
 app = Flask(__name__)
