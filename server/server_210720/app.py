@@ -22,8 +22,6 @@ def info():
 if __name__ == "__main__":
     sc = cameraRP.Socket(8888);
     sc.startSC()
-    sc1 = cameraRP.Socket(8889)
-    while True:
-        print(111)
-        time.sleep(3)
+    #sc1 = cameraRP.Socket(8889)
+
     app.run(debug=False, host="0.0.0.0", port=5000)
