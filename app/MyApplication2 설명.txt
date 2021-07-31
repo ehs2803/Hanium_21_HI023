@@ -1,0 +1,4 @@
+20210727
+http 통신 성공함.
+
+만든 flask server(local) 실행해서 원하는 http통신 성공함.
