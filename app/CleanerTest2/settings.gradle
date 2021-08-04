@@ -1,0 +1,2 @@
+rootProject.name = "CleanerTest2"
+include ':app'
