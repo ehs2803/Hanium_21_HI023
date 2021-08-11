@@ -1,0 +1,2 @@
+rootProject.name = "AICLEAN"
+include ':app'
