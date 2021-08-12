@@ -80,7 +80,7 @@ class CameraRP:
         PORT = 8888
         self.s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         self.s.connect((HOST, PORT))
-        name = "CAM2222"
+        name = "CAM-0-0000,거실"
         self.s.send(name.encode(encoding='utf_8', errors='strict'))
 
     def genCam(self):
