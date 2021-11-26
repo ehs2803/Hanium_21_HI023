@@ -1,0 +1,17 @@
+https://devicemart.blogspot.com/2019/06/dht-11.html
+온습도 센서 dht11 라즈베리파이 연결
+
+git clone https://github.com/adafruit/Adafruit_Python_DHT.git 
+
+cd Adafruit_Python_DHT
+
+sudo python setup.py install
+
+cd Adafruit_Python_DHT/examples
+
+
+python AdafruitDHT.py 11 4
+-> 앞에 sudo 붙이고 해도 안됨
+
+
+https://fishpoint.tistory.com/5224
